@@ -24,7 +24,7 @@ function Home() {
           {repo?.map(repo =>
           <Repos>
             <TextRepo>{repo?.name}</TextRepo>
-            <TextRepo>{repo?.language}</TextRepo>
+            <TextRepo >{repo?.language}</TextRepo>
           </Repos>
           )}
       </WrapRepo>

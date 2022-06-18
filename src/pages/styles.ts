@@ -38,6 +38,11 @@ export const TextBio = styled.p`
 export const TextRepo = styled.p`
     color:#fff;
     font-size: 15px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
 
 `;
 export const TextName = styled.p`
@@ -52,6 +57,7 @@ export const Repos = styled.div`
   border: 1px solid #fff;
     display: flex;
   flex-wrap: wrap;
+  
 `;
 
 
